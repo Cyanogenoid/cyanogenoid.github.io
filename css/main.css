@@ -1,0 +1,14 @@
+body {
+  font-family: "roboto";
+  font-weight: 400;
+}
+
+header h1 {
+  font-weight: 300;
+  font-size: 8em;
+}
+
+header h2 {
+  font-weight: 300;
+  font-size: 4em;
+}

@@ -4,4 +4,12 @@ title: Cyanogenoid
 subtitle: Yan Zhang
 ---
 
-Foo Bar
+<ul>
+{% for social in site.data.social %}
+  {% for hash in social %}
+    <li>
+      <a href="{{ hash[1].link }}">{{ hash[0] }}</a>
+    </li>
+  {% endfor %}
+{% endfor %}
+</ul>

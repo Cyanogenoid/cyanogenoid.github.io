@@ -6,12 +6,14 @@ body {
   font-weight: 400;
 }
 
-header h1 {
-  font-size: 8em;
-  font-weight: 300;
+header {
+  h1 {
+    font-size: 8em;
+    font-weight: 300;
+  }
+  h2 {
+    font-size: 4em;
+    font-weight: 300;
+  }
 }
 
-header h2 {
-  font-size: 4em;
-  font-weight: 300;
-}

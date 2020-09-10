@@ -1,7 +1,6 @@
 +++
 title = "FSPool: Learning set representations with featurewise sort pooling"
 date = 2019-06-06
-updated = 2020-05-01
 
 [taxonomies]
 tags = ["iclr 2020"]

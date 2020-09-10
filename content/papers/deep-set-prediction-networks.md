@@ -1,7 +1,9 @@
 +++
 title = "Deep set prediction networks"
-template = "terminimal/templates/page.html"
 date = 2020-02-01
+
+[taxonomies]
+tags = ["neurips 2019"]
 +++
 
 To predict a set from a vector, use gradient descent to find a set the encodes to that vector.
@@ -11,7 +13,7 @@ To predict a set from a vector, use gradient descent to find a set the encodes t
 [[poster 1]](/files/dspn-poster.pdf)
 [[poster 2]](/files/dspn-workshop-poster.pdf)
 
-```
+```bib
 @inproceedings{
     zhang2019dspn,
     author        = {Yan Zhang and Jonathon Hare and Adam Pr\"ugel-Bennett},

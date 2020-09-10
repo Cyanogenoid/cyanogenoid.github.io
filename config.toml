@@ -3,22 +3,31 @@ base_url = "https://www.cyanogenoid.com"
 
 theme = "terminimal"
 
+# Optional: enable tags
+taxonomies = [
+    {name = "tags"}
+]
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+highlight_theme = "base16-ocean-dark"
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
 title = "Yan Zhang"
+enable_post_view_navigation = false
+post_view_navigation_prompt = ""
 
 [extra]
 # Put all your custom variables here
 author = "Yan Zhang"
 logo_text = "Cyanogenoid"
+
 
 menu_items = [
     # each of these is optional, name and url are required
@@ -26,14 +35,7 @@ menu_items = [
     
     {name = "about me", url = "$BASE_URL"},
     {name = "papers", url = "$BASE_URL/papers"},
-    
-    # set newtab to true to make the link open in new tab
-    {name = "github", url = "https://github.com/Cyanogenoid", newtab = true},
-    {name = "scholar", url = "https://scholar.google.com/citations?user=XtCqbfEAAAAJ", newtab = true},
 ]
 
-taxonomies = [
-    {name = "tags"},
-]
 
 default_language = "en"

@@ -1,5 +1,5 @@
 +++
-title = "Learning Representations of Sets through Optimized Permutations"
+title = "Learning representations of sets through optimized permutations"
 date = 2018-12-10
 
 [taxonomies]

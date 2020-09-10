@@ -10,7 +10,7 @@ Enabling visual question answering models to count by handling overlapping objec
 
 [[arxiv]](https://arxiv.org/abs/1802.05766)
 [[code]](https://github.com/Cyanogenoid/vqa-counting)
-[[poster 1]](/files/l2c-poster.pdf)
+[[poster]](/files/l2c-poster.pdf)
 
 ```bib
 @inproceedings{

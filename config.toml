@@ -13,6 +13,27 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+title = "Yan Zhang"
+
 [extra]
 # Put all your custom variables here
 author = "Yan Zhang"
+logo_text = "Cyanogenoid"
+
+menu_items = [
+    # each of these is optional, name and url are required
+    # $BASE_URL is going to be substituted by base_url from configuration
+    
+    {name = "about me", url = "$BASE_URL"},
+    {name = "papers", url = "$BASE_URL/papers"},
+    
+    # set newtab to true to make the link open in new tab
+    {name = "github", url = "https://github.com/Cyanogenoid", newtab = true},
+    {name = "scholar", url = "https://scholar.google.com/citations?user=XtCqbfEAAAAJ", newtab = true},
+]
+
+taxonomies = [
+    {name = "tags"},
+]
+
+default_language = "en"

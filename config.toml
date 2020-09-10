@@ -20,14 +20,14 @@ highlight_theme = "base16-ocean-dark"
 build_search_index = true
 
 title = "Yan Zhang"
-enable_post_view_navigation = false
-post_view_navigation_prompt = ""
 
 [extra]
 # Put all your custom variables here
 author = "Yan Zhang"
 logo_text = "Cyanogenoid"
 
+enable_post_view_navigation = false
+post_view_navigation_prompt = ""
 
 menu_items = [
     # each of these is optional, name and url are required

@@ -1,6 +1,7 @@
 +++
 title = "Deep set prediction networks"
-date = 2020-02-01
+date = 2019-06-15
+updated = 2020-04-24
 
 [taxonomies]
 tags = ["neurips 2019"]

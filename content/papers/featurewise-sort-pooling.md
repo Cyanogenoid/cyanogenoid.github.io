@@ -1,13 +1,13 @@
 +++
 title = "FSPool: Learning set representations with featurewise sort pooling"
-template = "terminimal/templates/page.html"
-date = 2020-03-01
+date = 2019-06-06
+updated = 2020-05-01
 
 [taxonomies]
 tags = ["iclr 2020"]
 +++
 
-To predict a set from a vector, use gradient descent to find a set the encodes to that vector.
+Sort in encoder and undo sorting in decoder to avoid responsibility problem in set auto-encoders.
 
 [[arxiv]](https://arxiv.org/abs/1906.02795)
 [[code]](https://github.com/Cyanogenoid/fspool)

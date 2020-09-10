@@ -1,7 +1,4 @@
 # This is a basic workflow to help you get started with Actions
-
-name: Zola deploy
-
 on: push
 name: Build and deploy on push
 jobs:

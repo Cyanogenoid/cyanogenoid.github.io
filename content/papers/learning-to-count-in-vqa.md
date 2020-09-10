@@ -1,6 +1,6 @@
 +++
-title = "Deep set prediction networks"
-date = 2019-06-15
+title = "Learning to count objects in natural images for visual question answering"
+date = 2018-02-15
 
 [taxonomies]
 tags = ["iclr 2018"]

@@ -18,9 +18,9 @@ Sort in encoder and undo sorting in decoder to avoid responsibility problem in s
     zhang2019fspool,
     author        = {Yan Zhang and Jonathon Hare and Adam Pr\"ugel-Bennett},
     title         = {{FSPool}: Learning Set Representations with Featurewise Sort Pooling},
-    eprint        = {1906.02795},
     booktitle     = {International Conference on Learning Representations},
     year          = {2020},
+    eprint        = {1906.02795},
     url           = {https://openreview.net/forum?id=HJgBA2VYwH}
 }
 ```

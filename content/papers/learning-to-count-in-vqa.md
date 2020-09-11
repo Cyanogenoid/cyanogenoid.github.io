@@ -19,6 +19,7 @@ Enabling visual question answering models to count by handling overlapping objec
 	author        = {Yan Zhang and Jonathon Hare and Adam Pr\"ugel-Bennett},
 	booktitle     = {International Conference on Learning Representations},
 	year          = {2018},
+    eprint        = {1802.05766},
 	url           = {https://openreview.net/forum?id=B12Js_yRb},
 }
 ```

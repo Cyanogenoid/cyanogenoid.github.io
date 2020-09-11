@@ -9,5 +9,5 @@ I hold the speedrun world records in the [any% category](https://www.speedrun.co
 {{ youtube(id="r6Lu_HQ-jP4") }}
 {{ youtube(id="fJmb90-wnHM") }}
 
-For planning the route for the 100% run, I wrote [various tools](https://github.com/Cyanogenoid/asakura-p-routing).
+To plan the route for the 100% run, I wrote [various tools](https://github.com/Cyanogenoid/asakura-p-routing).
 One of them uses the Z3 SMT solver to figure out the optimal order of each section in the second half of the run.

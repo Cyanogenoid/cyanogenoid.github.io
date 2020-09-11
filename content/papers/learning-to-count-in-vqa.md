@@ -1,5 +1,5 @@
 +++
-title = "Learning to count objects in natural images for visual question answering"
+title = "Learning to count objects in natural images"
 date = 2018-02-15
 
 [taxonomies]
@@ -14,12 +14,12 @@ Enabling visual question answering models to count by handling overlapping objec
 
 ```bib
 @inproceedings{
-	zhang2018vqacounting,
-	title         = {Learning to Count Objects in Natural Images for Visual Question Answering},
-	author        = {Yan Zhang and Jonathon Hare and Adam Pr\"ugel-Bennett},
-	booktitle     = {International Conference on Learning Representations},
-	year          = {2018},
+    zhang2018vqacounting,
+    title         = {Learning to Count Objects in Natural Images for Visual Question Answering},
+    author        = {Yan Zhang and Jonathon Hare and Adam Pr\"ugel-Bennett},
+    booktitle     = {International Conference on Learning Representations},
+    year          = {2018},
     eprint        = {1802.05766},
-	url           = {https://openreview.net/forum?id=B12Js_yRb},
+    url           = {https://openreview.net/forum?id=B12Js_yRb},
 }
 ```

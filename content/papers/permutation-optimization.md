@@ -14,11 +14,11 @@ Learn how to permute a set, then encode permuted set with RNN to obtain a set re
 
 ```bib
 @inproceedings{
-	zhang2018permoptim,
-	title         = {Learning Representations of Sets through Optimized Permutations},
-	author        = {Yan Zhang and Jonathon Hare and Adam Pr\"ugel-Bennett},
-	booktitle     = {International Conference on Learning Representations},
-	year          = {2019},
-	url           = {https://openreview.net/forum?id=HJMCcjAcYX},
+    zhang2018permoptim,
+    title         = {Learning Representations of Sets through Optimized Permutations},
+    author        = {Yan Zhang and Jonathon Hare and Adam Pr\"ugel-Bennett},
+    booktitle     = {International Conference on Learning Representations},
+    year          = {2019},
+    url           = {https://openreview.net/forum?id=HJMCcjAcYX},
 }
 ```

@@ -37,5 +37,6 @@ menu_items = [
     {name = "papers", url = "$BASE_URL/papers"},
 ]
 
+copyright_html = "\n"
 
 default_language = "en"

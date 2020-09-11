@@ -1,5 +1,5 @@
 +++
-title = "Better Set Representations for Relational Reasoning "
+title = "Better set representations for relational reasoning "
 date = 2020-03-09
 +++
 

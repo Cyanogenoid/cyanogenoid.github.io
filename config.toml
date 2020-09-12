@@ -35,7 +35,7 @@ menu_items = [
     
     {name = "about me", url = "$BASE_URL"},
     {name = "papers", url = "$BASE_URL/papers"},
-    {name = "games", url = "$BASE_URL/games"},
+    {name = "fun", url = "$BASE_URL/fun"},
 ]
 
 copyright_html = "\n"

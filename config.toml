@@ -38,6 +38,6 @@ menu_items = [
     {name = "fun", url = "$BASE_URL/fun"},
 ]
 
-copyright_html = "\n"
+copyright_html = "<script src=\"/instantpage-5.1.0.js\" type=\"module\" defer></script>"
 
 default_language = "en"

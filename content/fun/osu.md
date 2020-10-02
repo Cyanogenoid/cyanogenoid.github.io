@@ -4,7 +4,7 @@ weight = 1500
 +++
 
 [osu!](https://osu.ppy.sh) is a rhythm game where you click circles to the beat.
-I started playing in 2011, peaking at a rank of #629 out of a few million players.
+I started playing in 2011, peaking at a rank of #618 out of a few million players in early 2016.
 
 [[profile]](https://osu.ppy.sh/users/924119/osu)
 

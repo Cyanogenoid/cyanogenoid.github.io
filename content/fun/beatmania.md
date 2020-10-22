@@ -10,4 +10,3 @@ Milestones:
 - 2020-08-03: Rootage SP 7段 clear
 
 {{ image(src="https://cdn.discordapp.com/attachments/357060106174857218/732873902740471808/20200715_100829.jpg", alt="Arcade-style controller for beatmania IIDX") }}
-https://www.youtube.com/watch?v=YEu4z0VnZ3E

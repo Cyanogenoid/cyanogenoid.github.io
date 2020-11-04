@@ -6,6 +6,7 @@ weight = 200
 beatmania IIDX is a vertical-scrolling rhythm game with 7 columns and a turntable.
 
 Milestones:
+- 2020-01-12: Visited [first arcade](https://vega-london.co.uk/)
 - 2020-03-24: Started playing on keyboard
 - 2020-07-15: Switched to Phoenixwan arcade-style controller (Sanwa buttons, 60g springs, 50g Omron switches)
 - 2020-08-03: Rootage SP 7段 clear

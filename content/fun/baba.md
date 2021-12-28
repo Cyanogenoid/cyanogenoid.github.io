@@ -10,28 +10,25 @@ It's my favourite puzzle game.
 
 
 # Custom levels
-I created some levels with the in-built level editor. Here they are in chronological order.
+I created some levels with the in-built level editor. Here they are in chronological order (oldest first). I made a [video playlist](https://www.youtube.com/playlist?list=PLpIwAVCnR4olYLXm4GjKeoE8Dsb56DKrV) of the solutions for each of these, mostly so that I don't forget how to complete them.
 
 
-### Algate
+### Algaete
 Level code: `QU1E-RVDJ`
 
-I originally made this before the level editor update came out as part of a small [fan game](https://qplanner.co.uk/tmp/rex/advent/content/dinoisyou.html) by [QOAL](http://qoal.co.uk/).
+{{ image(src="https://cdn.discordapp.com/attachments/880639427376975922/914030773038903346/unknown.png", alt="Screenshot of Algaete") }}
+
+I originally made this in December 2019 (before the official level editor update came out) as part of a small [fan game](https://qplanner.co.uk/tmp/rex/advent/content/dinoisyou.html) by [QOAL](http://qoal.co.uk/).
 The other levels I contributed were not as good.
-With the level editor update, I updated the level to be more compact with a slightly trickier solution.
-
-{{ image(src="https://cdn.discordapp.com/attachments/880639427376975922/914030773038903346/unknown.png", alt="Screenshot of Algate") }}
-
+After the level editor released, I updated the level to be more compact with a slightly trickier solution.
 
 ### Leftist Hoax
 Level code: `B34T-IE3F`
 
-This was inspired by an [anagram puzzle](https://clips.twitch.tv/BlueMuddyAardvarkRitzMitz-PIls6_w1XVoXUUSC) given by [Mindez](https://www.twitch.tv/mindezzy).
-It involves some spoiler-y words though, so I don't recommend it until you've beaten most of the levels in the main game.
-
 {{ image(src="https://cdn.discordapp.com/attachments/880639427376975922/920049377693810750/unknown.png", alt="Screenshot ofLeftist Hoax") }}
 
-
+This was inspired by an [anagram puzzle](https://clips.twitch.tv/BlueMuddyAardvarkRitzMitz-PIls6_w1XVoXUUSC) given by [Mindez](https://www.twitch.tv/mindezzy).
+It involves some spoiler-y words though, so I don't recommend it until you've beaten most of the levels in the main game.
 
 ## Clogged Pipe series
 The main game has variant levels where a small change is made to a level that then requires a completely different solution.

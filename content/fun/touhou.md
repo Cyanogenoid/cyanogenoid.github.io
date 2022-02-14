@@ -21,6 +21,7 @@ While practicing for the much harder Lunatic mode of Touhou 6, I captured (no-hi
 I'm a huge fan of [凋叶棕](https://en.touhouwiki.net/wiki/%E5%87%8B%E5%8F%B6%E6%A3%95) (Diao ye zong), a group that does vocal and instrumental arranges of Touhou music.
 They like to use `la` in lyrics to "censor" out references to dark or disturbing things such as death.
 I made a [spreadsheet](https://docs.google.com/spreadsheets/d/1YQzlnGe11joF6zn87SE-tCoEX_WhUC-A-0k5W3Bl7Ww/edit?usp=sharing) that counts every instance of these `la`'s.
+MusicBee (my music player of choice) has a Lyrics Reloaded plugin, for which I made a [TouhouWiki provider](https://gist.github.com/Cyanogenoid/6a638b3ec6de2e41a70ba4a90670a3c3) so that lyrics are automatically displayed.
 
 {{ image(src="https://cdn.discordapp.com/attachments/788075369449259028/823654466246279198/20210322_162236.jpg", alt="Physical copies of almost all Diao ye zong albums") }}
 

@@ -6,7 +6,7 @@ date = 2022-04-25
 tags = ["iclr 2022"]
 +++
 
-A better permutation-equivariance property set prediction.
+A better permutation-equivariance property for set prediction.
 
 [[arxiv]](https://arxiv.org/abs/2111.12193)
 [[code]](https://github.com/davzha/multiset-equivariance)

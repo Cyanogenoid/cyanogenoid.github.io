@@ -1,6 +1,6 @@
 +++
-title = "Multiset-equivariant set prediction with approximate implicit differentiation  "
-date = 2020-03-09
+title = "Multiset-equivariant set prediction with approximate implicit differentiation"
+date = 2022-04-25
 
 [taxonomies]
 tags = ["iclr 2022"]

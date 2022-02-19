@@ -13,6 +13,10 @@ To predict a set from a vector, use gradient descent to find a set the encodes t
 [[poster 1]](/files/dspn-poster.pdf)
 [[poster 2]](/files/dspn-workshop-poster.pdf)
 
+<!-- more -->
+
+Current approaches for predicting sets from feature vectors ignore the unordered nature of sets and suffer from discontinuity issues as a result. We propose a general model for predicting sets that properly respects the structure of sets and avoids this problem. With a single feature vector as input, we show that our model is able to auto-encode point sets, predict the set of bounding boxes of objects in an image, and predict the set of attributes of these objects. 
+
 ```bib
 @inproceedings{
     zhang2019dspn,

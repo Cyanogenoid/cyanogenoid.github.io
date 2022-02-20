@@ -9,7 +9,7 @@ My current research focuses on deep learning with sets.
 [[github]](https://github.com/Cyanogenoid)
 [[twitter]](https://twitter.com/Cyanogenoid)
 [[email]](mailto:cyanogenoid@gmail.com)
-[[thesis]](files/thesis.pdf)
+[[phd thesis]](files/thesis.pdf)
 
 
 # Featured

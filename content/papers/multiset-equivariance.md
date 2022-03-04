@@ -10,6 +10,9 @@ A better permutation-equivariance property for set prediction.
 
 [[arxiv]](https://arxiv.org/abs/2111.12193)
 [[code]](https://github.com/davzha/multiset-equivariance)
+[[video]](https://www.youtube.com/watch?v=2iGmXmjaQus)
+
+{{ youtube(id="xfVBZprO7g8") }}
 
 <!-- more -->
 

@@ -14,7 +14,7 @@ A better permutation-equivariance property for set prediction.
 [[summary]](https://twitter.com/Cyanogenoid/status/1499798372890329090)
 [[poster]](/files/multiset-equivariance-poster.pdf)
 
-{{ youtube(id="xfVBZprO7g8") }}
+{{ youtube(id="2iGmXmjaQus") }}
 
 <!-- more -->
 

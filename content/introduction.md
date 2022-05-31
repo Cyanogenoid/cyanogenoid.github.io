@@ -2,7 +2,7 @@
 title = "Yan Zhang"
 +++
 
-I'm a research scientist at the Samsung SAIT AI Lab Montreal, located in Mila.
+I'm a research scientist at Samsung - SAIT AI Lab, Montreal, which is located within Mila.
 My current research focuses on deep learning with structured objects like sets.
 
 [[scholar]](https://scholar.google.com/citations?user=XtCqbfEAAAAJ)

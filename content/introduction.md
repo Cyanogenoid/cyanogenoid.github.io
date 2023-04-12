@@ -9,7 +9,7 @@ My current research focuses on deep learning with structured objects like sets a
 [[github]](https://github.com/Cyanogenoid)
 [[twitter]](https://twitter.com/Cyanogenoid)
 [[email]](mailto:yan@hi.cyan.zone)
-[[phd thesis]](files/thesis.pdf)
+[[phd thesis]](/files/thesis.pdf)
 
 
 # Featured

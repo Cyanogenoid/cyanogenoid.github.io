@@ -17,4 +17,4 @@ My current research focuses on deep learning with structured objects like sets a
 
 {{ youtube(id="2iGmXmjaQus") }}
 
-- Samsung SAIT AI Lab Montreal is hiring! We're an academic-style lab in close collaboration with Mila. If you have some top-tier ML conference papers under your belt and have (or will soon have) a PhD, have a look at the [job description](https://www.sait.samsung.co.kr/saithome/about/labs.do).
+<!-- - Samsung SAIT AI Lab Montreal is hiring! We're an academic-style lab in close collaboration with Mila. If you have some top-tier ML conference papers under your belt and have (or will soon have) a PhD, have a look at the [job description](https://www.sait.samsung.co.kr/saithome/about/labs.do). -->

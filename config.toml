@@ -5,7 +5,8 @@ theme = "terminimal"
 
 # Optional: enable tags
 taxonomies = [
-    {name = "tags"}
+    { name = "tags" },
+    { name = "categories" },
 ]
 
 # Whether to automatically compile all Sass files in the sass directory

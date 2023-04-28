@@ -18,23 +18,23 @@ My current research focuses on deep learning with structured objects like sets a
 {{ youtube(id="2iGmXmjaQus") }}
 
 # Papers
-- **NEW**: [Unlocking Slot Attention by Changing Optimal Transport Costs](https://arxiv.org/abs/2301.13197).</br>**Yan Zhang**\*, David W. Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek. 2023.
+- **NEW**: [Unlocking Slot Attention by Changing Optimal Transport Costs](https://arxiv.org/abs/2301.13197).</br>**Yan Zhang**\*, David W. Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek. ICML 2023.
 ![](/img/samesh.png)
 Make slot attention more powerful by taking an optimal transport perspective.
 
-- **NEW**: [CrossSplit: Mitigating Label Noise Memorization through Data Splitting](https://arxiv.org/abs/2212.01674).</br>Jihye Kim, Aristide Baratin, **Yan Zhang**, Simon Lacoste-Julien. 2023.
+- **NEW**: [CrossSplit: Mitigating Label Noise Memorization through Data Splitting](https://arxiv.org/abs/2212.01674).</br>Jihye Kim, Aristide Baratin, **Yan Zhang**, Simon Lacoste-Julien. ICML 2023.
 ![](/img/crosssplit.png)
 Improve robust learning under label noise by reducing memorization of noisy labels using a novel training framework
 
-- **NEW**: [Equivariance with Learned Canonicalization Functions](https://arxiv.org/abs/2211.06489).</br> Sékou-Oumar Kaba, Arnab Kumar Mondal, **Yan Zhang**, Yoshua Bengio, Siamak Ravanbakhsh. 2023.
+- **NEW**: [Equivariance with Learned Canonicalization Functions](https://arxiv.org/abs/2211.06489).</br> Sékou-Oumar Kaba, Arnab Kumar Mondal, **Yan Zhang**, Yoshua Bengio, Siamak Ravanbakhsh. ICML 2023.
 ![](/img/learned-canonicalization.png)
 Make models equivariant by learning to map data to canonical examples.
 
-- [Multiset-equivariant set prediction with approximate implicit differentiation](/papers/multiset-equivariance).</br> **Yan Zhang**\*, David W. Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek
+- [Multiset-equivariant set prediction with approximate implicit differentiation](/papers/multiset-equivariance).</br> **Yan Zhang**\*, David W. Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek. ICLR 2022.
 ![](/img/mset-equiv.png)
 A better permutation-equivariance property for set prediction.
 
-- [Better set representations for relational reasoning](/papers/better-set-representations).</br> Qian Huang\*, Horace He\*, Abhay Singh, **Yan Zhang**, Ser-Nam Lim, Austin Benson
+- [Better set representations for relational reasoning](/papers/better-set-representations).</br> Qian Huang\*, Horace He\*, Abhay Singh, **Yan Zhang**, Ser-Nam Lim, Austin Benson. NeurIPS 2020.
 ![](https://github.com/CUAI/BetterSetRepresentations/blob/master/imgs/set.png?raw=true)
 Set-structured latent spaces improve generalisation and robustness.
 

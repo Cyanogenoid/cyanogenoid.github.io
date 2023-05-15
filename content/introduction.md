@@ -26,7 +26,7 @@ Make slot attention more powerful by taking an optimal transport perspective.
 ![](/img/crosssplit.png)
 Improve robust learning under label noise by reducing memorization of noisy labels using a novel training framework
 
-- **NEW**: [Equivariance with Learned Canonicalization Functions](https://arxiv.org/abs/2211.06489).</br> Sékou-Oumar Kaba, Arnab Kumar Mondal, **Yan Zhang**, Yoshua Bengio, Siamak Ravanbakhsh. ICML 2023.
+- **NEW**: [Equivariance with Learned Canonicalization Functions](https://arxiv.org/abs/2211.06489).</br> Sékou-Oumar Kaba*, Arnab Kumar Mondal*, **Yan Zhang**, Yoshua Bengio, Siamak Ravanbakhsh. ICML 2023.
 ![](/img/learned-canonicalization.png)
 Make models equivariant by learning to map data to canonical examples.
 

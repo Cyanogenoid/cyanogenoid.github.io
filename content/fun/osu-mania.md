@@ -9,11 +9,11 @@ weight = 1501
 
 
 It features speed...
-{{ youtube(id="o6mrlB73jaY") }}
+{{ <youtube id="o6mrlB73jaY" /> }}
 
 ...finger coordination...
-{{ youtube(id="iojfD_ua1aU") }}
+{{ <youtube id="iojfD_ua1aU" /> }}
 
 ...and scroll speed changes that trick your eyes.
 
-{{ youtube(id="-IY-ZUMPjJU") }}
+{{ <youtube id="-IY-ZUMPjJU" /> }}

@@ -2,6 +2,7 @@
 base_url = "https://www.cyanogenoid.com"
 
 theme = "terminimal"
+default_language = "en"
 
 # Optional: enable tags
 taxonomies = [
@@ -12,18 +13,13 @@ taxonomies = [
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
-highlight_theme = "base16-ocean-dark"
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
-
-title = "Yan Zhang"
+# Syntax highlighting (Giallo)
+[markdown.highlighting]
+theme = "one-dark-pro"
 
 [extra]
 # Put all your custom variables here
+accent_color = "blue"
 author = "Yan Zhang"
 logo_text = "Cyanogenoid"
 
@@ -38,7 +34,3 @@ menu_items = [
     {name = "papers", url = "$BASE_URL/papers"},
     {name = "fun", url = "$BASE_URL/fun"},
 ]
-
-copyright_html = "<script src=\"/instantpage-5.1.0.js\" type=\"module\" defer></script>"
-
-default_language = "en"

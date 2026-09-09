@@ -15,4 +15,4 @@ Milestones:
 - 2021-02-11: Heroic Verse SP 10段 clear
 - 2021-06-05: Heroic Verse SP 中伝 clear
 
-{{ image(src="https://cdn.discordapp.com/attachments/357060106174857218/732873902740471808/20200715_100829.jpg", alt="Arcade-style controller for beatmania IIDX") }}
+{{ <terminimal.image src="https://cdn.discordapp.com/attachments/357060106174857218/732873902740471808/20200715_100829.jpg" alt="Arcade-style controller for beatmania IIDX" base_url={config.base_url} /> }}

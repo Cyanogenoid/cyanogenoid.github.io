@@ -17,7 +17,8 @@ Sort in encoder and undo sorting in decoder to avoid responsibility problem in s
 
 Traditional set prediction models can struggle with simple datasets due to an issue we call the responsibility problem. We introduce a pooling method for sets of feature vectors based on sorting features across elements of the set. This can be used to construct a permutation-equivariant auto-encoder that avoids this responsibility problem. On a toy dataset of polygons and a set version of MNIST, we show that such an auto-encoder produces considerably better reconstructions and representations. Replacing the pooling function in existing set encoders with FSPool improves accuracy and convergence speed on a variety of datasets. 
 
-```bib
+{% raw %}
+```bibtex
 @inproceedings{
     zhang2019fspool,
     author        = {Yan Zhang and Jonathon Hare and Adam Pr\"ugel-Bennett},
@@ -28,3 +29,4 @@ Traditional set prediction models can struggle with simple datasets due to an is
     url           = {https://openreview.net/forum?id=HJgBA2VYwH}
 }
 ```
+{% endraw %}

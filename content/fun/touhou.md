@@ -9,11 +9,11 @@ First, I [completed](https://twitter.com/Cyanogenoid/status/1237535881474396160)
 
 Then I beat the Extra stage of Touhou 6 \~ Embodiment of Scarlet Devil.
 
-{{ youtube(id="hcHh60rx5ME") }}
+{{ <youtube id="hcHh60rx5ME" /> }}
 
 While practicing for the much harder Lunatic mode of Touhou 6, I captured (no-hit no-bomb) the final attack of the last boss.
 
-{{ youtube(id="tmJtfxqUyl0") }}
+{{ <youtube id="tmJtfxqUyl0" /> }}
 
 
 # Music
@@ -23,5 +23,5 @@ They like to use `la` in lyrics to "censor" out references to dark or disturbing
 I made a [spreadsheet](https://docs.google.com/spreadsheets/d/1YQzlnGe11joF6zn87SE-tCoEX_WhUC-A-0k5W3Bl7Ww/edit?usp=sharing) that counts every instance of these `la`'s.
 MusicBee (my music player of choice) has a Lyrics Reloaded plugin, for which I made a [TouhouWiki provider](https://gist.github.com/Cyanogenoid/6a638b3ec6de2e41a70ba4a90670a3c3) so that lyrics are automatically displayed.
 
-{{ image(src="https://cdn.discordapp.com/attachments/788075369449259028/823654466246279198/20210322_162236.jpg", alt="Physical copies of almost all Diao ye zong albums") }}
+{{ <terminimal.image src="https://cdn.discordapp.com/attachments/788075369449259028/823654466246279198/20210322_162236.jpg" alt="Physical copies of almost all Diao ye zong albums" base_url={config.base_url} /> }}
 

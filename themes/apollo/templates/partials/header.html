@@ -58,6 +58,8 @@
         {% endif %}
     {% endif %}
 
+    <meta property="og:image" content="{{ config.base_url }}/og-image.png" />
+
     {% if not page_has_description %}
         {% if page?.description %}
             <meta name="description" content="{{ page.description }}" />

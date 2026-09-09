@@ -2,13 +2,13 @@
 
 {% component list_tag_posts(pages: array, tag_name: string = "") %}
 {% if tag_name %}
-    <div class="page-header">
+    <h1 class="page-header">
         Entries tagged :: {{ tag_name }}
-    </div>
+    </h1>
 {% else %}
-    <div class="page-header">
+    <h1 class="page-header">
         All articles
-    </div>
+    </h1>
 {% endif %}
 
 <main class="post-list">

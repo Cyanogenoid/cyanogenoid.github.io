@@ -10,7 +10,7 @@ It's my favourite puzzle game.
 
 
 
-# Custom levels
+## Custom levels
 I created some levels with the in-built level editor. Here they are in chronological order (oldest first). I made a [video playlist](https://www.youtube.com/playlist?list=PLpIwAVCnR4olYLXm4GjKeoE8Dsb56DKrV) of the solutions for each of these, mostly so that I don't forget how to complete them.
 
 

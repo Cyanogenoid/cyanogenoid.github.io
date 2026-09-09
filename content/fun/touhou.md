@@ -17,7 +17,7 @@ While practicing for the much harder Lunatic mode of Touhou 6, I captured (no-hi
 {{ <youtube id="tmJtfxqUyl0" /> }}
 
 
-# Music
+## Music
 
 I'm a huge fan of [凋叶棕](https://en.touhouwiki.net/wiki/%E5%87%8B%E5%8F%B6%E6%A3%95) (Diao ye zong), a group that does vocal and instrumental arranges of Touhou music.
 They like to use `la` in lyrics to "censor" out references to dark or disturbing things such as death.

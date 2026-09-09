@@ -16,13 +16,13 @@
 
             <ul>
                 {%- for term in terms %}
-                    <div class="post-header">
-                        <h1 class="title">
+                    <li class="post-header">
+                        <h2 class="title">
                             <a href={{ term.permalink }}>{{ term.name }}</a>
-                        </h1>
+                        </h2>
 
                         <small class="meta">{{ term.page_count }} page{{ term.page_count | pluralize }}</small>
-                    </div>
+                    </li>
                 {% endfor -%}
             </ul>
         </main>

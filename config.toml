@@ -1,36 +1,47 @@
 # The URL the site will be built for
 base_url = "https://www.cyanogenoid.com"
 
-theme = "terminimal"
+theme = "apollo"
 default_language = "en"
+title = "Cyanogenoid"
+description = "Research scientist at Samsung SAIT AI Lab, Montreal. Deep learning with structured objects."
 
-# Optional: enable tags
 taxonomies = [
     { name = "tags" },
-    { name = "categories" },
 ]
 
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+minify_html = true
+build_search_index = true
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
 
 # Syntax highlighting (Giallo)
 [markdown.highlighting]
-theme = "one-dark-pro"
+style = "class"
+light_theme = "github-light"
+dark_theme = "github-dark"
+error_on_missing_language = false
 
 [extra]
-# Put all your custom variables here
-accent_color = "blue"
-author = "Yan Zhang"
-logo_text = "Cyanogenoid"
+theme = "toggle"
+toc = false
+fancy_code = false
+dynamic_note = false
+mathjax = false
+socials = []
+stylesheets = ["custom.css"]
 
-enable_post_view_navigation = false
-post_view_navigation_prompt = ""
-
-menu_items = [
-    # each of these is optional, name and url are required
-    # $BASE_URL is going to be substituted by base_url from configuration
-    
-    {name = "about me", url = "$BASE_URL"},
-    {name = "papers", url = "$BASE_URL/papers"},
-    {name = "fun", url = "$BASE_URL/fun"},
+menu = [
+    { name = "about me", url = "/" },
+    { name = "papers", url = "/papers" },
+    { name = "fun", url = "/fun" },
 ]
+
+[extra.analytics]
+enabled = false

@@ -1,4 +1,5 @@
 +++
-template = "terminimal/templates/index.html"
+title = "Fun"
 sort_by = "weight"
+template = "fun.html"
 +++

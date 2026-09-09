@@ -1,0 +1,239 @@
+import { test, expect } from '@playwright/test';
+import { TestHelpers } from '../helpers';
+
+test.describe('Advanced Features', () => {
+  let helpers: TestHelpers;
+
+  test.beforeEach(async ({ page }) => {
+    helpers = new TestHelpers(page);
+  });
+
+  test('MathJax formulas are rendered', async ({ page }) => {
+    // Look for pages that might contain math formulas
+    await page.goto('/posts');
+    await helpers.waitForPageReady();
+
+    // Navigate to first post to check for math content
+    const firstPostLink = page.locator('article a, .post a, .post-title a').first();
+    if (await firstPostLink.isVisible()) {
+      await firstPostLink.click();
+      await helpers.waitForPageReady();
+
+      // Check if MathJax is loaded
+      const mathJaxScript = page.locator('script[src*="mathjax"], script[src*="tex-mml-chtml"]');
+      const mathJaxCount = await mathJaxScript.count();
+
+      if (mathJaxCount > 0) {
+        // Wait for MathJax to initialize
+        await page.waitForFunction(() => window.MathJax !== undefined, { timeout: 5000 }).catch((error) => {
+          if (error && error.name === 'TimeoutError') {
+            // Log the timeout error but continue test execution for graceful handling
+            console.warn(`MathJax did not initialize within 5 seconds: ${error.message}`);
+          } else {
+            // Log or rethrow unexpected errors
+            console.error('Unexpected error while waiting for MathJax initialization:', error);
+            throw error;
+          }
+        });
+
+        // Look for rendered math elements
+        const mathElements = page.locator('.MathJax, .mjx-chtml, mjx-container, .math');
+        const mathCount = await mathElements.count();
+
+        if (mathCount > 0) {
+          // Verify math is visible and rendered
+          await expect(mathElements.first()).toBeVisible();
+        }
+      }
+    }
+  });
+
+  test('Mermaid diagrams are displayed', async ({ page }) => {
+    await page.goto('/posts');
+    await helpers.waitForPageReady();
+
+    const firstPostLink = page.locator('article a, .post a, .post-title a').first();
+    if (await firstPostLink.isVisible()) {
+      await firstPostLink.click();
+      await helpers.waitForPageReady();
+
+      // Check if Mermaid is loaded
+      const mermaidScript = page.locator('script[src*="mermaid"]');
+      const mermaidCount = await mermaidScript.count();
+
+      if (mermaidCount > 0) {
+        // Wait for Mermaid to initialize
+        await page.waitForFunction(() => window.mermaid !== undefined, { timeout: 5000 }).catch(() => {});
+
+        // Look for Mermaid diagram containers
+        const mermaidElements = page.locator('.mermaid, .mermaid-diagram');
+        const diagramCount = await mermaidElements.count();
+
+        if (diagramCount > 0) {
+          // Verify diagram is visible
+          await expect(mermaidElements.first()).toBeVisible();
+
+          // Mermaid should have rendered SVG content
+          const svgContent = mermaidElements.first().locator('svg');
+          if (await svgContent.isVisible()) {
+            await expect(svgContent).toBeVisible();
+          }
+        }
+      }
+    }
+  });
+
+  test('code blocks are properly highlighted', async ({ page }) => {
+    await page.goto('/posts/linenos-test');
+    await helpers.waitForPageReady();
+
+    // Look for Giallo code blocks with syntax highlighting
+    const codeBlock = page.locator('pre.giallo:has(span[class*="z-l-"])').first();
+    await expect(codeBlock).toBeVisible();
+
+    // Should contain Giallo highlighted token elements
+    const highlightedElements = codeBlock.locator('span[class*="z-l-"], span[class*="z-d-"]');
+    const highlightCount = await highlightedElements.count();
+    expect(highlightCount).toBeGreaterThan(0);
+
+    // Verify syntax stylesheets in document head
+    const syntaxLight = page.locator('link#syntaxLightStyle');
+    const syntaxDark = page.locator('link#syntaxDarkStyle');
+    await expect(syntaxLight).toBeAttached();
+    await expect(syntaxDark).toBeAttached();
+
+    // In light mode, light stylesheet is active and first token has light highlight color
+    const firstToken = highlightedElements.first();
+    const lightColor = await firstToken.evaluate((el) => window.getComputedStyle(el).color);
+    expect(lightColor).toBeTruthy();
+    expect(lightColor).not.toBe('rgba(0, 0, 0, 0)');
+
+    // Toggle to dark mode and verify style updates
+    await helpers.toggleTheme();
+    const darkColor = await firstToken.evaluate((el) => window.getComputedStyle(el).color);
+    expect(darkColor).toBeTruthy();
+    expect(darkColor).not.toBe(lightColor);
+  });
+
+  test('code copy functionality works', async ({ page }) => {
+    await page.goto('/posts');
+    await helpers.waitForPageReady();
+
+    const firstPostLink = page.locator('article a, .post a, .post-title a').first();
+    if (await firstPostLink.isVisible()) {
+      await firstPostLink.click();
+      await helpers.waitForPageReady();
+
+      // Look for copy buttons on code blocks
+      const copyButtons = page.locator('.copy-button, .copy, button[title*="copy" i], button[aria-label*="copy" i]');
+      const copyCount = await copyButtons.count();
+
+      if (copyCount > 0) {
+        const firstCopyButton = copyButtons.first();
+        await expect(firstCopyButton).toBeVisible();
+
+        // Click the copy button
+        await firstCopyButton.click();
+
+        // Button should show some feedback (text change, etc.)
+        await page.waitForTimeout(100);
+
+        // Verify clipboard permissions are handled gracefully
+        const buttonText = await firstCopyButton.textContent();
+        if (buttonText) {
+          // Common copy feedback text
+          expect(buttonText.toLowerCase()).toMatch(/copy|copied/);
+        }
+      }
+    }
+  });
+
+  test('code block language labels show actual language, not DEFAULT', async ({ page }) => {
+    // Regression test for https://github.com/not-matthias/apollo/issues/164
+    // Zola uses `data-lang` attribute on <code> elements, not `class="language-*"`
+    await page.goto('/posts/configuration');
+    await helpers.waitForPageReady();
+
+    // Find code blocks that have a data-lang attribute (i.e. a language was specified)
+    const codeBlocksWithLang = page.locator('pre code[data-lang]');
+    const count = await codeBlocksWithLang.count();
+    expect(count).toBeGreaterThan(0);
+
+    // For each code block with a language, verify the label shows that language, not DEFAULT
+    for (let i = 0; i < count; i++) {
+      const pre = codeBlocksWithLang.nth(i).locator('..');
+      const label = pre.locator('.code-label');
+      const text = await label.textContent();
+      expect(text).not.toBe('DEFAULT');
+    }
+  });
+
+  test('toggleable notes feature works', async ({ page }) => {
+    await page.goto('/posts');
+    await helpers.waitForPageReady();
+
+    const firstPostLink = page.locator('article a, .post a, .post-title a').first();
+    if (await firstPostLink.isVisible()) {
+      await firstPostLink.click();
+      await helpers.waitForPageReady();
+
+      // Look for note elements
+      const notes = page.locator('.note, .callout, .admonition, .warning, .info, .tip');
+      const noteCount = await notes.count();
+
+      if (noteCount > 0) {
+        const firstNote = notes.first();
+        await expect(firstNote).toBeVisible();
+
+        // Look for toggle button within note
+        const toggleButton = firstNote.locator('button, .toggle, .collapse-toggle');
+        const toggleCount = await toggleButton.count();
+
+        if (toggleCount > 0) {
+          const firstToggle = toggleButton.first();
+
+          // Note content should be visible initially
+          const noteContent = firstNote.locator('.content, .note-content, .body');
+          if (await noteContent.isVisible()) {
+            await expect(noteContent).toBeVisible();
+
+            // Click toggle to collapse
+            await firstToggle.click();
+            await page.waitForTimeout(300);
+
+            // Content might be hidden or collapsed
+            const isStillVisible = await noteContent.isVisible();
+            // Note: This test is flexible since toggle behavior can vary
+          }
+        }
+      }
+    }
+  });
+
+  test('responsive images and media work correctly', async ({ page }) => {
+    await page.goto('/posts');
+    await helpers.waitForPageReady();
+
+    const firstPostLink = page.locator('article a, .post a, .post-title a').first();
+    if (await firstPostLink.isVisible()) {
+      await firstPostLink.click();
+      await helpers.waitForPageReady();
+
+      // Look for images
+      const images = page.locator('img');
+      const imageCount = await images.count();
+
+      if (imageCount > 0) {
+        const firstImage = images.first();
+        await expect(firstImage).toBeVisible();
+
+        // Images should load successfully
+        await expect(firstImage).not.toHaveAttribute('src', '');
+
+        // Check if images are responsive
+        const maxWidth = await firstImage.evaluate(el => getComputedStyle(el).maxWidth);
+        expect(maxWidth).toBe('100%');
+      }
+    }
+  });
+});

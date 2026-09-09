@@ -1,4 +1,4 @@
 +++
-template = "terminimal/templates/index.html"
+title = "Papers"
 sort_by = "date"
 +++

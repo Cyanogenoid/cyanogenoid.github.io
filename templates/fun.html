@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    {% if section.title %}
+        {{<post.page_header title={section.title} />}}
+    {% endif %}
+
+    <main class="post-list">
+        <ul>
+            {%- for page in section.pages %}
+                <li class="list-item">
+                    <section>
+                        <div class="post-header">
+                            <div>
+                                <h1 class="title">
+                                    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                                </h1>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+            {% endfor -%}
+        </ul>
+    </main>
+{% endblock main_content %}

@@ -1,5 +1,6 @@
 +++
 title = "Any-Property-Conditional Molecule Generation with Self-Criticism using Spanning Trees"
+description = "Extend spanning-tree molecule generation to conditioning on any subset of properties, with a self-criticism property-prediction loss."
 date = 2024-07-12
 
 [taxonomies]

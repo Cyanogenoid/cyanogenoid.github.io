@@ -1,5 +1,6 @@
 +++
 title = "osu!"
+description = "Click circles to the beat; playing since 2011, peaking at a world rank of #618."
 weight = 1500
 +++
 

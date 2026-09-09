@@ -1,5 +1,6 @@
 +++
 title = "Asakura! P"
+description = "An obscure 2D platformer with action, puzzle, and metroidvania elements — I hold the any% and 100% speedrun world records."
 weight = 100
 +++
 

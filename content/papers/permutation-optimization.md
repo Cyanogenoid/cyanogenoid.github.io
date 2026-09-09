@@ -1,5 +1,6 @@
 +++
 title = "Learning representations of sets through optimized permutations"
+description = "Learn how to permute a set, then encode permuted set with RNN to obtain a set representation."
 date = 2018-12-10
 
 [taxonomies]

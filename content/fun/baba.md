@@ -1,5 +1,6 @@
 +++
 title = "Baba Is You"
+description = "A puzzle game where the rules themselves are physical objects you can manipulate. My favourite."
 weight = 150
 +++
 

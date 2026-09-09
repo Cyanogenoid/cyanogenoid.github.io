@@ -1,5 +1,6 @@
 +++
 title = "Learning to count objects in natural images for visual question answering"
+description = "Enabling visual question answering models to count by handling overlapping object proposals."
 date = 2018-02-15
 
 [taxonomies]

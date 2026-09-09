@@ -1,5 +1,6 @@
 +++
 title = "Molecule property prediction with molecular orbitals"
+description = "Molecular orbitals are free when running DFT and significantly improve property prediction over a pretrained molecular foundation model."
 date = 2026-04-26
 
 [taxonomies]

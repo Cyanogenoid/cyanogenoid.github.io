@@ -1,5 +1,6 @@
 +++
 title = "Unlocking Slot Attention by Changing Optimal Transport Costs"
+description = "Make slot attention more powerful by taking an optimal transport perspective."
 date = 2023-01-30
 
 [taxonomies]

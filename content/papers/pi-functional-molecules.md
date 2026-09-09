@@ -1,5 +1,6 @@
 +++
 title = "Generating π-Functional Molecules Using STGG+ with Active Learning"
+description = "An active learning loop around STGG+ that generates π-functional molecules with out-of-distribution absorption properties."
 date = 2025-02-20
 
 [taxonomies]

@@ -1,5 +1,6 @@
 +++
 title = "osu!mania"
+description = "The vertical-scrolling cousin of osu! — I mainly play 4-key and reached rank ~9,000."
 weight = 1501
 +++
 

@@ -1,5 +1,6 @@
 +++
 title = "Unsupervised Concept Discovery Mitigates Spurious Correlations"
+description = "Unsupervised object-centric concept discovery (CoBalT) mitigates spurious correlations without group annotation."
 date = 2024-02-20
 
 [taxonomies]

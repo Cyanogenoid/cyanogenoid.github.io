@@ -1,5 +1,6 @@
 +++
 title = "Improving Equivariant Networks with Probabilistic Symmetry Breaking"
+description = "Equivariant networks can't break symmetries; randomized canonicalization (SymPE) gives them that ability while keeping the symmetry inductive bias."
 date = 2025-03-27
 
 [taxonomies]

@@ -1,5 +1,6 @@
 +++
 title = "M⁴olGen: Multi-Agent, Multi-Stage Molecular Generation under Precise Multi-Property Constraints"
+description = "A multi-agent, multi-stage LLM framework that generates molecules satisfying precise numeric multi-property constraints."
 date = 2026-01-15
 
 [taxonomies]

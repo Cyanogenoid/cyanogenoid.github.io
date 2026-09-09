@@ -1,5 +1,6 @@
 +++
 title = "FSPool: Learning set representations with featurewise sort pooling"
+description = "Sort in encoder and undo sorting in decoder to avoid responsibility problem in set auto-encoders."
 date = 2019-06-06
 
 [taxonomies]

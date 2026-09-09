@@ -1,5 +1,6 @@
 +++
 title = "Concept-based Steering of Large Language Models for Conditional Molecular Generation"
+description = "A concept bottleneck (CAST) gives direct, precise control over LLM-based conditional molecular generation."
 date = 2025-12-03
 
 [taxonomies]

@@ -1,5 +1,6 @@
 +++
 title = "PopulAtion Parameter Averaging (PAPA)"
+description = "Push a population of diverse models toward the population weight average to combine ensembling with single-model efficiency."
 date = 2023-04-06
 
 [taxonomies]

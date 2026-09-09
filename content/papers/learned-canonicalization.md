@@ -1,5 +1,6 @@
 +++
 title = "Equivariance with Learned Canonicalization Functions"
+description = "Make models equivariant by learning to map data to canonical examples."
 date = 2022-11-11
 
 [taxonomies]

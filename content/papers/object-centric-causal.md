@@ -1,5 +1,6 @@
 +++
 title = "Object-centric architectures enable efficient causal representation learning"
+description = "Object-centric (Slot Attention) architectures make interventional causal representation learning more data-efficient."
 date = 2023-10-29
 
 [taxonomies]

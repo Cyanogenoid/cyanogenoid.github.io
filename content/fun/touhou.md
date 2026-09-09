@@ -1,5 +1,6 @@
 +++
 title = "Touhou"
+description = "Bullet hell shoot-em-ups; I completed Touhou 14.3 ~ Impossible Spell Card."
 weight = 2000
 +++
 

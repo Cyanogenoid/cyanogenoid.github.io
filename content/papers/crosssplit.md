@@ -1,5 +1,6 @@
 +++
 title = "CrossSplit: Mitigating Label Noise Memorization through Data Splitting"
+description = "Improve robust learning under label noise by reducing memorization of noisy labels using a novel training framework."
 date = 2022-12-03
 
 [taxonomies]

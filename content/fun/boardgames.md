@@ -1,5 +1,6 @@
 +++
 title = "Boardgames"
+description = "Board games. They're fun. My BoardGameGeek profile."
 weight = 250
 +++
 

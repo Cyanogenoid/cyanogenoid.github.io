@@ -1,5 +1,6 @@
 +++
 title = "Multiset-equivariant set prediction with approximate implicit differentiation"
+description = "A better permutation-equivariance property for set prediction."
 date = 2022-04-25
 
 [taxonomies]

@@ -1,5 +1,6 @@
 +++
 title = "beatmania IIDX"
+description = "A vertical-scrolling rhythm game with seven columns and a turntable; milestones and scores."
 weight = 200
 +++
 

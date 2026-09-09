@@ -1,5 +1,6 @@
 +++
 title = "Better set representations for relational reasoning "
+description = "Set-structured latent spaces improve generalisation and robustness."
 date = 2020-03-09
 
 [taxonomies]

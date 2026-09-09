@@ -10,6 +10,9 @@ taxonomies = [
     { name = "tags" },
 ]
 
+generate_sitemap = true
+generate_feeds = true
+generate_robots_txt = true
 compile_sass = true
 minify_html = true
 build_search_index = true
@@ -30,8 +33,9 @@ error_on_missing_language = false
 
 [extra]
 theme = "toggle"
+favicon = "favicon.png"
 toc = false
-fancy_code = false
+fancy_code = true
 dynamic_note = false
 mathjax = false
 socials = []

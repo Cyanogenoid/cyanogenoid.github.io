@@ -1,5 +1,6 @@
 +++
 title = "Improved Generalization of Weight Space Networks via Augmentations"
+description = "Weight-space MixUp and augmentations fix overfitting of networks that operate on other networks' weights."
 date = 2024-02-06
 
 [taxonomies]

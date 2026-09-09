@@ -1,5 +1,6 @@
 +++
 title = "Graph Neural Networks for Learning Equivariant Representations of Neural Networks"
+description = "Represent neural networks as computational graphs so a single permutation-equivariant GNN can process diverse architectures."
 date = 2024-03-18
 
 [taxonomies]

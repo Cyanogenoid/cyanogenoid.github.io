@@ -1,5 +1,6 @@
 +++
 title = "Deep set prediction networks"
+description = "To predict a set from a vector, use gradient descent to find a set the encodes to that vector."
 date = 2019-06-15
 
 [taxonomies]

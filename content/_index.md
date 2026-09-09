@@ -13,12 +13,12 @@ My current research focuses on deep learning with structured objects like sets a
 <!-- [[twitter]](https://twitter.com/Cyanogenoid) -->
 
 
-# Featured
+## Featured
 - ICLR 2022 paper and video on [multiset-equivariance](/papers/multiset-equivariance)!
 
 {{ <youtube id="2iGmXmjaQus" /> }}
 
-# Papers
+## Papers
 - [M⁴olGen: Multi-Agent, Multi-Stage Molecular Generation under Precise Multi-Property Constraints](/papers/m4olgen).<br>Yizhan Li, Florence Cloutier, Sifan Wu, Ali Parviz, Boris Knyazev, **Yan Zhang**, Glen Berseth, Bang Liu. <br>AACL-IJCNLP Findings 2026.
 ![](/img/m4olgen.webp)
 A multi-agent, multi-stage LLM framework that generates molecules satisfying precise numeric multi-property constraints.
@@ -28,14 +28,14 @@ Molecular orbitals are free when running DFT and significantly improve property 
 - [Improving Equivariant Networks with Probabilistic Symmetry Breaking](/papers/improving-equivariant-networks).<br>Hannah Lawrence, Vasco Portilheiro, **Yan Zhang**, Sékou-Oumar Kaba. <br>ICLR 2025.
 ![](/img/sympe.webp)
 Equivariant networks can't break symmetries; randomized canonicalization (SymPE) gives them that ability while keeping the symmetry inductive bias.
-- [Any-Property-Conditional Molecule Generation with Self-Criticism using Spanning Trees](/papers/stgg-plus).<br>Alexia Jolicoeur-Martineau, Aristide Baratin, Kisoo Kwon, Boris Knyazev, **Yan Zhang**. <br>TMLR 2025.<img src="/img/stgg-plus.webp" class="center" width="440">
+- [Any-Property-Conditional Molecule Generation with Self-Criticism using Spanning Trees](/papers/stgg-plus).<br>Alexia Jolicoeur-Martineau, Aristide Baratin, Kisoo Kwon, Boris Knyazev, **Yan Zhang**. <br>TMLR 2025.<img alt="" src="/img/stgg-plus.webp" class="center" width="440">
 Extend spanning-tree molecule generation to conditioning on any subset of properties, with a self-criticism property-prediction loss.
 - [Generating π-Functional Molecules Using STGG+ with Active Learning](/papers/pi-functional-molecules).<br>Alexia Jolicoeur-Martineau, **Yan Zhang**, Boris Knyazev, Aristide Baratin, Cheng-Hao Liu. <br>XAI4Science Workshop, ICLR 2025.
 ![](/img/stgg-al.webp)
 An active learning loop around STGG+ that generates π-functional molecules with out-of-distribution absorption properties.
-- [Concept-based Steering of Large Language Models for Conditional Molecular Generation](/papers/concept-based-steering).<br>Jeremy Qin, Rushil Gupta, Boris Knyazev, **Yan Zhang**, Glen Berseth, Bang Liu. <br>AI4Mat Workshop, NeurIPS 2025.<img src="/img/cast.webp" class="center" width="500">
+- [Concept-based Steering of Large Language Models for Conditional Molecular Generation](/papers/concept-based-steering).<br>Jeremy Qin, Rushil Gupta, Boris Knyazev, **Yan Zhang**, Glen Berseth, Bang Liu. <br>AI4Mat Workshop, NeurIPS 2025.<img alt="" src="/img/cast.webp" class="center" width="500">
 A concept bottleneck (CAST) gives direct, precise control over LLM-based conditional molecular generation.
-- [Graph Neural Networks for Learning Equivariant Representations of Neural Networks](/papers/neural-networks-as-graphs).<br>Miltiadis Kofinas, Boris Knyazev, **Yan Zhang**, Yunlu Chen, Gertjan J. Burghouts, Efstratios Gavves, Cees G. M. Snoek, David W. Zhang. <br>ICLR 2024.<img src="/img/neural-graphs.webp" class="center" width="500">
+- [Graph Neural Networks for Learning Equivariant Representations of Neural Networks](/papers/neural-networks-as-graphs).<br>Miltiadis Kofinas, Boris Knyazev, **Yan Zhang**, Yunlu Chen, Gertjan J. Burghouts, Efstratios Gavves, Cees G. M. Snoek, David W. Zhang. <br>ICLR 2024.<img alt="" src="/img/neural-graphs.webp" class="center" width="500">
 Represent neural networks as computational graphs so a single permutation-equivariant GNN can process diverse architectures.
 - [Object-centric architectures enable efficient causal representation learning](/papers/object-centric-causal).<br>Amin Mansouri, Jason Hartford, **Yan Zhang**, Yoshua Bengio. <br>ICLR 2024.
 ![](/img/object-centric-causal.webp)
@@ -46,7 +46,7 @@ Weight-space MixUp and augmentations fix overfitting of networks that operate on
 - [Unsupervised Concept Discovery Mitigates Spurious Correlations](/papers/cobalt).<br>Md Rifat Arefin, **Yan Zhang**, Aristide Baratin, Francesco Locatello, Irina Rish, Dianbo Liu, Kenji Kawaguchi. <br>ICML 2024.
 ![](/img/cobalt.webp)
 Unsupervised object-centric concept discovery (CoBalT) mitigates spurious correlations without group annotation.
-- [PopulAtion Parameter Averaging (PAPA)](/papers/papa).<br>Alexia Jolicoeur-Martineau, Emy Gervais, Kilian Fatras, **Yan Zhang**, Simon Lacoste-Julien. <br>TMLR 2024.<img src="/img/papa.webp" class="center" width="460">
+- [PopulAtion Parameter Averaging (PAPA)](/papers/papa).<br>Alexia Jolicoeur-Martineau, Emy Gervais, Kilian Fatras, **Yan Zhang**, Simon Lacoste-Julien. <br>TMLR 2024.<img alt="" src="/img/papa.webp" class="center" width="460">
 Push a population of diverse models toward the population weight average to combine ensembling with single-model efficiency.
 - [Unlocking Slot Attention by Changing Optimal Transport Costs](/papers/unlocking-slot-attention).<br>**Yan Zhang**\*, David W. Zhang\*, Simon Lacoste-Julien, Gertjan J. Burghouts, Cees G. M. Snoek. <br>ICML 2023.
 ![](/img/samesh.webp)

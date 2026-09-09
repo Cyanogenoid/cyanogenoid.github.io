@@ -52,7 +52,7 @@
                     {% endif %}
 
                     <div class="card-content">
-                        <h1 class="card-title">
+                        <h2 class="card-title">
                             {% if page.extra?.link_to %}
                                 <a href={{ page.extra.link_to }}>{{ page.title }}</a>
                             {% elif page.content %}
@@ -60,7 +60,7 @@
                             {% else %}
                                 {{ page.title }}
                             {% endif %}
-                        </h1>
+                        </h2>
 
                         {% if page.description %}
                             <p class="card-tagline">

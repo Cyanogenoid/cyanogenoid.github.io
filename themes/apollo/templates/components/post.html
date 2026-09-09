@@ -6,7 +6,7 @@
             <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
 
             <div>
-                <h1 class="title">
+                <h2 class="title">
                     <a href="{{ post_url | safe }}">{{ page.title }}
                         {% if page.extra?.link_to %}
                             ↗
@@ -16,7 +16,7 @@
                     {% if page.draft %}
                         <span class="draft-label">DRAFT</span>
                     {% endif %}
-                </h1>
+                </h2>
 
                 <div class="meta">
                     <div class="description">
@@ -55,9 +55,9 @@
 
 {% component post.page_header(title: string) %}
 {% if title %}
-    <div class="page-header">
+    <h1 class="page-header">
         {{ title }}
-    </div>
+    </h1>
 {% endif %}
 {% endcomponent post.page_header %}
 
